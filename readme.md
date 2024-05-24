@@ -23,6 +23,8 @@ Each folder will contain its own requirements file. To install the requirements 
 pip install -r requirements.txt
 ```
 
+This Project uses Python version 3.10.9.
+
 
 
 
