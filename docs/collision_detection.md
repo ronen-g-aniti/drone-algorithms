@@ -14,9 +14,9 @@ Given this context, a criterion that is both necessary and sufficient to indicat
 
 In other words, a point (x, y, z) collides with an obstacle box, defined as having center (ox, oy, oz) and halfsizes (hx, hy, hz), if and only if the following conditions are met:
 
-1. $ x \in [o_x - h_x, o_x + h_x]$
-2. $ y \in [o_y - h_y, o_x + h_y]$
-3. $ z \in [o_z - h_z, o_z + h_z]$
+1. $x \in [o_x - h_x, o_x + h_x]$
+2. $y \in [o_y - h_y, o_x + h_y]$
+3. $z \in [o_z - h_z, o_z + h_z]$
 
 Of course, it's entirely impractical to conduct collision checking on all points belonging to a line segment, the reason being there would be infinitely many points to check. So what we do instead is employ collision checking methods that approximate this process.
 
