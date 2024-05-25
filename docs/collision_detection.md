@@ -4,9 +4,9 @@ For this project, I've employed two main methods for collision detection: The Ax
 To better understand the context, obstacles in this project are represented by 3D boxes. Furthermore, for a path to be valid, line segments connecting any two subsequent path points must not intersect with any obstacle.
 
 ### Mathematical Formulation of the Collision Detection Problem
-In the context of this project, the problem of collision detection is more specifically the problem of collision detection of a 3D box with a line segment defined by two points. Each obstacle 3D box is defined by its center points and its dimensions (halfsizes). Furthermore, each line segment is defined by two points in R^3. 
+In the context of this project, the problem of collision detection is more specifically the problem of collision detection of a 3D box with a line segment defined by two points. Each obstacle 3D box is defined by its center points and its dimensions (halfsizes). Furthermore, each line segment is defined by two points in $\mathbb{R}^3$. 
 
-To further elaborate, defining one obstacle requires six parameters: x, y, z, hx, hy, hz. The drone's environment is defined by a collection of N obstacles. Moreover, defining one line segment requires six parameters: x1, y1, z1, x2, y2, z2. The drone's path is defined by a collection of M line segments. 
+To further elaborate, defining one obstacle requires six parameters: $x, y, z, h_x, h_y, h_z$. The drone's environment is defined by a collection of N obstacles. Moreover, defining one line segment requires six parameters: $x_1, y_1, z_1, x_2, y_2, z_2$. The drone's path is defined by a collection of M line segments. 
 
 #### The Neccessary and Sufficient Condition for Collision of a Single Point with a Single Obstacle
 
@@ -14,9 +14,9 @@ Given this context, a criterion that is both necessary and sufficient to indicat
 
 In other words, a point (x, y, z) collides with an obstacle box, defined as having center (ox, oy, oz) and halfsizes (hx, hy, hz), if and only if the following conditions are met:
 
-1. x is in the range [ox - hx, ox + hx] 
-2. y is in the range [oy - hy, oy + hy] 
-3. z is in the range [oz - hz, oz + hz]
+1. $ x \in [o_x - h_x, o_x + h_x]$
+2. $ y \in [o_y - h_y, o_x + h_y]$
+3. $ z \in [o_z - h_z, o_z + h_z]$
 
 Of course, it's entirely impractical to conduct collision checking on all points belonging to a line segment, the reason being there would be infinitely many points to check. So what we do instead is employ collision checking methods that approximate this process.
 

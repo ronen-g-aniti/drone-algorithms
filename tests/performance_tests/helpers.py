@@ -39,7 +39,22 @@ def average_distance_from_obstacles(path, environment_data_object):
         
     Returns:
         float: the average distance from the path to the obstacles in the environment
-    """)
+    """
+    
+def compute_degree_of_being_shortest_distance(test_path, optimal_path):
+    """
+    Compute the degree of being the shortest distance between two paths.
+    
+    Args:
+        test_path (list): a list of points representing the test path
+        optimal_path (list): a list of points representing the optimal path
+        
+    Returns:
+        float: the degree of being the shortest distance between the two paths
+    """
+    
+    # Compute path distances
+    # Return the ratio (L - L0) / L0
 
 
 if __name__ == "__main__":
@@ -51,23 +66,31 @@ if __name__ == "__main__":
     free_space_lattice_object = CubicLattice(environment_data_object, 1.0)
    
     # Test Loop 1: RRT Performance Testing
+    # Define the number of tests
+    
+    N = 100
+    
+    for i in range(N):
 
-    # Define the start and goal GPS coordinates
-    start_gps = random_free_space_point_as_gps(environment_data_object)
-    goal_gps = random_free_space_point_as_gps(environment_data_object)
+        # Define the start and goal GPS coordinates
+        start_gps = random_free_space_point_as_gps(environment_data_object)
+        goal_gps = random_free_space_point_as_gps(environment_data_object)
     
-    # Find the path, measuring the time to complete
+        # Find the path, measuring the time to complete
     
-    # Measure the path length
+        # Measure the path length
     
-    # Measure the average distance from the path to the obstacles
+        # Measure the average distance from the path to the obstacles
     
-    # Measure the path sparsity
+        # Measure the path sparsity
     
-    # Compute the same start-goal search using A* on a CubicLattice of default parameters
+        # Compute the same start-goal search using A* on a CubicLattice of default parameters
     
-    # Return the ratio (L - L0) / L0
+        # Return the ratio (L - L0) / L0
     
+        # Add the results as a new row in the performance list
+        
+    # Save the performance list to a CSV file
 
     
   
