@@ -7,8 +7,15 @@ I've organized this project as a collection of scripts, each of which can be run
 python <script_name>.py
 ```
 
-## Project Navigation
+## Requirements
+Each folder will contain its own requirements file. To install the requirements for a specific folder, navigate to the folder and run the following command:
+```bash
+pip install -r requirements.txt
+```
 
+This Project uses Python version 3.10.9.
+
+## Project Navigation
 1. [Motion Planning Demos](motion_planning_demos)
     1. [Deterministic Pathfinding](motion_planning_demos/deterministic_pathfinding_algorithms/)
         1. [A* Search](motion_planning_demos/deterministic_pathfinding_algorithms/a_star.py)
@@ -35,13 +42,6 @@ python <script_name>.py
     2. [Birotor Controller](controller_models/birotor/)
 4. [Hardware Prototyping](drone_hardware_prototyping)
 
-## Requirements
-Each folder will contain its own requirements file. To install the requirements for a specific folder, navigate to the folder and run the following command:
-```bash
-pip install -r requirements.txt
-```
-
-This Project uses Python version 3.10.9.
 
 
 

@@ -1,5 +1,7 @@
 import numpy as np
 
+
+
 class Birotor: 
     def __init__(self, m=1.0):
         self.m = m

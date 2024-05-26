@@ -26,7 +26,7 @@
 1. Measure the execution time to generate the path
 1. Run an algorithm to compute the average distance of points along path from nearest obstacles
 1. Run an algorithm to compute the sparsity of the path
-1. Run a search using A* from the same start and end point and compare the path distances
+1. Run a search using A* from the same start and end point and compare the path distances using a ratio
 
 # Test of A* Path Performance
 ## Procudure

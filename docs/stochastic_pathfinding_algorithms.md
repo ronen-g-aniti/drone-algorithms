@@ -24,5 +24,5 @@
 
 ### Integration with A* Search
 
-### Typical Results
+
 

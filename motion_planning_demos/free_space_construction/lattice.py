@@ -268,6 +268,6 @@ if __name__ == "__main__":
     
     # Visualize the lattice
     # Options: connectivity="full" or "partial":
-    # connectivity="full" creates a 10-connected lattice, where each point is connected to up to 26 neighbors of its neighbors
+    # connectivity="full" creates a 26-connected lattice, where each point is connected to up to 26 neighbors of its neighbors
     # connectivity="partial" creates a 6-connected lattice, where each point is connected to up to 6 neighbors
     lattice_obj.visualize(ed_obj)
