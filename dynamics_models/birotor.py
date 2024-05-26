@@ -9,7 +9,7 @@ class Birotor:
         # State variables (y, z, phi, y_dot, z_dot, phi_dot)
         self.X = np.array([0.0, 0.0, 0.0, 0.0, 0.0, 0.0])
         
-    def advance_state(self, u1, u2, dt):
+    def advance_state(self, f1, f2, dt):
         """
         Advances the state of the drone forward by dt seconds given the control inputs u1 and u2.
         u1 is a collective thrust acting on the drone, and u2 is a torque acting on the drone.
