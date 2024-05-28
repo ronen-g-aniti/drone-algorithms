@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "telemetry_data_processor", "telemetry_data_processor\telemetry_data_processor.csproj", "{B10FCF11-0736-4262-A9CF-4EDECFB1E4F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "telemetry_data_processor", "telemetry_data_processor\telemetry_data_processor.csproj", "{5633454D-1E48-44A1-AB87-FDD0D6F89D9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B10FCF11-0736-4262-A9CF-4EDECFB1E4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B10FCF11-0736-4262-A9CF-4EDECFB1E4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B10FCF11-0736-4262-A9CF-4EDECFB1E4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B10FCF11-0736-4262-A9CF-4EDECFB1E4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5633454D-1E48-44A1-AB87-FDD0D6F89D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5633454D-1E48-44A1-AB87-FDD0D6F89D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5633454D-1E48-44A1-AB87-FDD0D6F89D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5633454D-1E48-44A1-AB87-FDD0D6F89D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BA626B85-06FE-4753-B9C6-1251189C62CF}
+		SolutionGuid = {3DCBBFB9-1451-4814-BD51-CE95E9FDC12F}
 	EndGlobalSection
 EndGlobal
