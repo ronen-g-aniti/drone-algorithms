@@ -1,13 +1,17 @@
 # Telemetry Data Processor
 This project involves the generation, storage, and visualization of telemetry data using Python, C#, and MATLAB. The telemetry data is stored in an SQLite database, and the project includes tools to visualize this data in a Windows Forms application and MATLAB.
 
+![MATLAB Screenshot](matlab_screenshot.png)
+
+![CS Screenshot](cs_screenshot.png)
+
+
 ## Project Structure
 
 ### Python Scripts
 
 #### `generate_telemetry_data.py`
 This script generates telemetry data and stores it in an SQLite database. The script uses the `sqlite3` and `random` modules to interact with the database and generate random telemetry data.
-
 
 
 ### C# Windows Forms Application
