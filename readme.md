@@ -1,19 +1,7 @@
 # Drone Algorithms Project
 This project contains a collection of algorithms and demos for drone motion planning, dynamics modeling, and controller design. The project is divided into three main sections: motion planning algorithms, dynamics models, and controller models. Each section contains a collection of algorithms and demos that can be used to simulate and visualize the behavior of drones in different scenarios.
 
-I've organized this project as a collection of scripts, each of which can be run independetly. Simply navigate to the folder of the script you want to run and execute the script using the following command:
-
-```bash
-python <script_name>.py
-```
-
-## Requirements
-Each folder will contain its own requirements file. To install the requirements for a specific folder, navigate to the folder and run the following command:
-```bash
-pip install -r requirements.txt
-```
-
-This Project uses Python version 3.10.9.
+![Image](docs/supporting_figures/composite-display.png)
 
 ## Project Navigation
 1. [Motion Planning Demos](motion_planning_demos)
@@ -41,7 +29,35 @@ This Project uses Python version 3.10.9.
     1. [Monorotor Controller](controller_models/monorotor/)
     2. [Birotor Controller](controller_models/birotor/)
 4. [Hardware Prototyping](drone_hardware_prototyping)
+1. [Telemetry Data Processor](telemetry_data_processor/)
 
+## Documentation
+1. [The Story Behind This Project](docs/the_story_behind_this_project.md)
+2. [Formulating the Path Planning Problem in Detail](docs/the_problem_statement.md)
+3. [Trajectory Planning](docs/trajectory_planning_algorithms_.md)
+4. [Collision Detection](docs/collision_detection.md)
+5. [Deterministic Pathfinding](docs/deterministic_pathfinding_algorithms_.md)
+6. [Stochastic Pathfinding](docs/stochastic_pathfinding.md)
+7. [Dynamics Models](docs/dynamics_models.md)
+8. [PID Controllers](docs/pid_controllers.md)
+9. [Drone Hardware Prototyping](docs/drone_hardware_prototyping.md)
+1. [Telemetry Data Processor](telemetry_data_processor/)
+10. [Plans for Further Development](docs/plans_for_further_development.md)
+
+## Requirements
+Each folder will contain its own requirements file. To install the requirements for a specific folder, navigate to the folder and run the following command:
+```bash
+pip install -r requirements.txt
+```
+
+This Project uses Python version 3.10.9.
+
+## Usage
+I've organized this project as a collection of scripts, each of which can be run independetly. Simply navigate to the folder of the script you want to run and execute the script using the following command:
+
+```bash
+python <script_name>.py
+```
 
 
 
