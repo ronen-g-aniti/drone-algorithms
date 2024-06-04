@@ -3,7 +3,7 @@ This project contains a collection of algorithms and demos for drone motion plan
 
 ![Image](docs/supporting_figures/composite-display.png)
 
-NOTE: This repository is still under development. I am making changes to the codebase and adding new features. If you have any suggestions or would like to contribute, please feel free to reach out to me.
+NOTE: This repository is still under development. I am making changes to the codebase and adding new features. For this reason, there may temporarily be some broken links or missing files. I am working to fix these issues as soon as possible.
 
 ## Project Navigation
 1. [Motion Planning Demos](motion_planning_demos)
